@@ -1,0 +1,41 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items:center;
+	
+}
+
+.form {
+	
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-content:center;
+	align-items:center;
+	width: max-content;
+	padding: 50px;
+	border: 1px solid black;
+	
+}
+
+.txt-campo {
+	margin: 2px;
+	
+}
+
+.botoes {
+	padding: 20px;
+}
+
+#btn-enviar {
+	padding:10px;
+	border: none;
+	background-color: green;
+}
+
+#btn-enviar:hover {
+	
+	border: 1px solid black;
+}
